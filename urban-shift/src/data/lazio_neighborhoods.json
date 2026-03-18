@@ -621,9 +621,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -792,9 +792,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -906,9 +906,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -1875,9 +1875,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -1932,9 +1932,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -2274,9 +2274,9 @@
     ],
     "infrastructure": {
       "hospitals": 5,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 5
+      "total": 6
     }
   },
   {
@@ -2445,9 +2445,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -3699,9 +3699,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -4326,9 +4326,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -4725,9 +4725,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -4782,9 +4782,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -5979,9 +5979,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -6036,9 +6036,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -6150,9 +6150,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -6777,9 +6777,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -7119,9 +7119,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -7176,9 +7176,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -7518,9 +7518,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 2,
-      "total": 3
+      "total": 7
     }
   },
   {
@@ -8145,9 +8145,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -8886,9 +8886,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -9342,9 +9342,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -9741,9 +9741,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -9855,9 +9855,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -10197,9 +10197,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -10311,9 +10311,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -10368,9 +10368,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -10995,9 +10995,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 0,
-      "total": 1
+      "total": 5
     }
   },
   {
@@ -11109,9 +11109,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -11280,9 +11280,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -11850,9 +11850,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 2
+      "total": 4
     }
   },
   {
@@ -12021,9 +12021,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -12192,9 +12192,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -12249,9 +12249,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 2
+      "total": 4
     }
   },
   {
@@ -12477,9 +12477,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -12648,9 +12648,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 2,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -12705,9 +12705,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -13275,9 +13275,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 1,
-      "total": 3
+      "total": 7
     }
   },
   {
@@ -13617,9 +13617,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 2,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -13788,9 +13788,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -15384,9 +15384,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -16752,9 +16752,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -17379,9 +17379,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -17892,9 +17892,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -18120,9 +18120,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -18462,9 +18462,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -18861,9 +18861,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -19260,9 +19260,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -19317,9 +19317,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -19944,9 +19944,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -20115,9 +20115,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 4,
-      "total": 4
+      "total": 5
     }
   },
   {
@@ -20400,9 +20400,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 4
+      "total": 6
     }
   },
   {
@@ -20457,9 +20457,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 0,
-      "total": 0
+      "total": 4
     }
   },
   {
@@ -20628,9 +20628,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -20742,9 +20742,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 1,
-      "total": 1
+      "total": 5
     }
   },
   {
@@ -21312,9 +21312,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -21597,9 +21597,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 7,
-      "total": 7
+      "total": 11
     }
   },
   {
@@ -22053,9 +22053,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 2
+      "total": 4
     }
   },
   {
@@ -22110,9 +22110,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -22338,9 +22338,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -22395,9 +22395,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -22566,9 +22566,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -22737,9 +22737,9 @@
     ],
     "infrastructure": {
       "hospitals": 10,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 8,
-      "total": 18
+      "total": 21
     }
   },
   {
@@ -23307,9 +23307,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -23535,9 +23535,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -23592,9 +23592,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -23763,9 +23763,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -24561,9 +24561,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -25188,9 +25188,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -25245,9 +25245,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 6,
       "railway_stations": 5,
-      "total": 6
+      "total": 12
     }
   },
   {
@@ -25302,9 +25302,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -25701,9 +25701,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -25872,9 +25872,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -26157,9 +26157,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -26385,9 +26385,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 2,
-      "total": 2
+      "total": 6
     }
   },
   {
@@ -26955,9 +26955,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -27069,9 +27069,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -27126,9 +27126,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -27411,9 +27411,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -27468,9 +27468,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -28095,9 +28095,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 14,
       "railway_stations": 8,
-      "total": 11
+      "total": 25
     }
   },
   {
@@ -28152,9 +28152,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -28494,9 +28494,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -28722,9 +28722,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 4
+      "total": 7
     }
   },
   {
@@ -29064,9 +29064,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -29520,9 +29520,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -29577,9 +29577,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -29691,9 +29691,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -30204,9 +30204,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -30318,9 +30318,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -30432,9 +30432,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 11,
       "railway_stations": 0,
-      "total": 1
+      "total": 12
     }
   },
   {
@@ -30717,9 +30717,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -30774,9 +30774,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -30831,9 +30831,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 6,
       "railway_stations": 1,
-      "total": 1
+      "total": 7
     }
   },
   {
@@ -30888,9 +30888,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -31287,9 +31287,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -31458,9 +31458,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -31572,9 +31572,9 @@
     ],
     "infrastructure": {
       "hospitals": 7,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 9
+      "total": 10
     }
   },
   {
@@ -31971,9 +31971,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -32085,9 +32085,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -32199,9 +32199,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -32256,9 +32256,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -32541,9 +32541,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -33111,9 +33111,9 @@
     ],
     "infrastructure": {
       "hospitals": 4,
-      "schools": 0,
+      "schools": 14,
       "railway_stations": 4,
-      "total": 8
+      "total": 22
     }
   },
   {
@@ -33168,9 +33168,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -33225,9 +33225,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -33282,9 +33282,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 4
+      "total": 7
     }
   },
   {
@@ -33510,9 +33510,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -33567,9 +33567,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -34080,9 +34080,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -34194,9 +34194,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -34251,9 +34251,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -34308,9 +34308,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -34764,9 +34764,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -34992,9 +34992,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -35106,9 +35106,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -35163,9 +35163,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -35277,9 +35277,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 2,
-      "total": 3
+      "total": 7
     }
   },
   {
@@ -35733,9 +35733,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -36018,9 +36018,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -36132,9 +36132,9 @@
     ],
     "infrastructure": {
       "hospitals": 5,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 5,
-      "total": 10
+      "total": 14
     }
   },
   {
@@ -36189,9 +36189,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -36531,9 +36531,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -36702,9 +36702,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -36759,9 +36759,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -36873,9 +36873,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -37044,9 +37044,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -37101,9 +37101,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -37443,9 +37443,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -37671,9 +37671,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -38013,9 +38013,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -38070,9 +38070,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -38298,9 +38298,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -38355,9 +38355,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -38412,9 +38412,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -38811,9 +38811,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 7,
       "railway_stations": 2,
-      "total": 3
+      "total": 10
     }
   },
   {
@@ -38925,9 +38925,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -38982,9 +38982,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 7,
       "railway_stations": 1,
-      "total": 1
+      "total": 8
     }
   },
   {
@@ -39039,9 +39039,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -39096,9 +39096,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -39495,9 +39495,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -39723,9 +39723,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 0,
-      "total": 0
+      "total": 4
     }
   },
   {
@@ -39780,9 +39780,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 19,
       "railway_stations": 3,
-      "total": 3
+      "total": 22
     }
   },
   {
@@ -39894,9 +39894,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -39951,9 +39951,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -40407,9 +40407,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -40578,9 +40578,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 2,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -41148,9 +41148,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -41262,9 +41262,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -41604,9 +41604,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -41661,9 +41661,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -42288,9 +42288,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 2,
-      "total": 4
+      "total": 8
     }
   },
   {
@@ -42630,9 +42630,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -42972,9 +42972,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 2,
-      "total": 3
+      "total": 7
     }
   },
   {
@@ -43029,9 +43029,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 5,
-      "total": 7
+      "total": 8
     }
   },
   {
@@ -43485,9 +43485,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -43884,9 +43884,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -43941,9 +43941,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -44055,9 +44055,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -44226,9 +44226,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -44397,9 +44397,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -44454,9 +44454,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -44568,9 +44568,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -44967,9 +44967,9 @@
     ],
     "infrastructure": {
       "hospitals": 4,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 5
+      "total": 7
     }
   },
   {
@@ -45138,9 +45138,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -45195,9 +45195,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 1,
-      "total": 1
+      "total": 6
     }
   },
   {
@@ -45309,9 +45309,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -45480,9 +45480,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 3,
-      "total": 3
+      "total": 6
     }
   },
   {
@@ -45537,9 +45537,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -45594,9 +45594,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 2
+      "total": 4
     }
   },
   {
@@ -45651,9 +45651,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 0
+      "total": 3
     }
   },
   {
@@ -45936,9 +45936,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -46050,9 +46050,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -46107,9 +46107,9 @@
     ],
     "infrastructure": {
       "hospitals": 6,
-      "schools": 0,
+      "schools": 14,
       "railway_stations": 2,
-      "total": 8
+      "total": 22
     }
   },
   {
@@ -46221,9 +46221,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -46506,9 +46506,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 2
+      "total": 4
     }
   },
   {
@@ -46620,9 +46620,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -46791,9 +46791,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -46848,9 +46848,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -47019,9 +47019,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -47076,9 +47076,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 2,
-      "total": 4
+      "total": 9
     }
   },
   {
@@ -47133,9 +47133,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -47418,9 +47418,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 3,
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -47646,9 +47646,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 0,
-      "total": 2
+      "total": 7
     }
   },
   {
@@ -47817,9 +47817,9 @@
     ],
     "infrastructure": {
       "hospitals": 7,
-      "schools": 0,
+      "schools": 21,
       "railway_stations": 17,
-      "total": 24
+      "total": 45
     }
   },
   {
@@ -47874,9 +47874,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -47931,9 +47931,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -47988,9 +47988,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -48216,9 +48216,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -48273,9 +48273,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -48957,9 +48957,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -49014,9 +49014,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -49299,9 +49299,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 15,
       "railway_stations": 2,
-      "total": 3
+      "total": 18
     }
   },
   {
@@ -49641,9 +49641,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -49755,9 +49755,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -50211,9 +50211,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 3
+      "total": 5
     }
   },
   {
@@ -50439,9 +50439,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -51066,9 +51066,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 0,
-      "total": 0
+      "total": 4
     }
   },
   {
@@ -51180,9 +51180,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -51237,9 +51237,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -51294,9 +51294,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 2,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -51408,9 +51408,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -51579,9 +51579,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -51636,9 +51636,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 3,
-      "total": 6
+      "total": 8
     }
   },
   {
@@ -51693,9 +51693,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -52035,9 +52035,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -52149,9 +52149,9 @@
     ],
     "infrastructure": {
       "hospitals": 6,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 7
+      "total": 10
     }
   },
   {
@@ -52263,9 +52263,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 1,
-      "total": 3
+      "total": 7
     }
   },
   {
@@ -52377,9 +52377,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 3
+      "total": 6
     }
   },
   {
@@ -52434,9 +52434,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 5,
-      "total": 5
+      "total": 8
     }
   },
   {
@@ -52548,9 +52548,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -52605,9 +52605,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -52662,9 +52662,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 1,
-      "total": 2
+      "total": 6
     }
   },
   {
@@ -52890,9 +52890,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 10,
       "railway_stations": 1,
-      "total": 4
+      "total": 14
     }
   },
   {
@@ -53175,9 +53175,9 @@
     ],
     "infrastructure": {
       "hospitals": 6,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 6
+      "total": 7
     }
   },
   {
@@ -53289,9 +53289,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -53346,9 +53346,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -53403,9 +53403,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -53745,9 +53745,9 @@
     ],
     "infrastructure": {
       "hospitals": 4,
-      "schools": 0,
+      "schools": 28,
       "railway_stations": 6,
-      "total": 10
+      "total": 38
     }
   },
   {
@@ -53916,9 +53916,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -54030,9 +54030,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -54087,9 +54087,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -54429,9 +54429,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 7,
       "railway_stations": 1,
-      "total": 3
+      "total": 10
     }
   },
   {
@@ -54942,9 +54942,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 0
+      "total": 2
     }
   },
   {
@@ -55227,9 +55227,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 0,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -55341,9 +55341,9 @@
     ],
     "infrastructure": {
       "hospitals": 80,
-      "schools": 0,
+      "schools": 258,
       "railway_stations": 121,
-      "total": 201
+      "total": 459
     }
   },
   {
@@ -55398,9 +55398,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -55740,9 +55740,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 6,
       "railway_stations": 1,
-      "total": 2
+      "total": 8
     }
   },
   {
@@ -55911,9 +55911,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -56025,9 +56025,9 @@
     ],
     "infrastructure": {
       "hospitals": 8,
-      "schools": 0,
+      "schools": 8,
       "railway_stations": 4,
-      "total": 12
+      "total": 20
     }
   },
   {
@@ -56082,9 +56082,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 2
+      "total": 4
     }
   },
   {
@@ -56139,9 +56139,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 0,
-      "total": 0
+      "total": 4
     }
   },
   {
@@ -56253,9 +56253,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 4,
-      "total": 4
+      "total": 6
     }
   },
   {
@@ -56310,9 +56310,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 6,
       "railway_stations": 1,
-      "total": 1
+      "total": 7
     }
   },
   {
@@ -56424,9 +56424,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 8,
       "railway_stations": 3,
-      "total": 3
+      "total": 11
     }
   },
   {
@@ -56595,9 +56595,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -56709,9 +56709,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 1,
-      "total": 1
+      "total": 3
     }
   },
   {
@@ -56766,9 +56766,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -56994,9 +56994,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -57051,9 +57051,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 3,
-      "total": 5
+      "total": 6
     }
   },
   {
@@ -57165,9 +57165,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 9,
       "railway_stations": 1,
-      "total": 2
+      "total": 11
     }
   },
   {
@@ -57393,9 +57393,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -57450,9 +57450,9 @@
     ],
     "infrastructure": {
       "hospitals": 6,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 7
+      "total": 8
     }
   },
   {
@@ -57507,9 +57507,9 @@
     ],
     "infrastructure": {
       "hospitals": 4,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 0,
-      "total": 4
+      "total": 7
     }
   },
   {
@@ -57678,9 +57678,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -57735,9 +57735,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 2,
-      "total": 3
+      "total": 5
     }
   },
   {
@@ -57906,9 +57906,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 1,
-      "total": 4
+      "total": 9
     }
   },
   {
@@ -57963,9 +57963,9 @@
     ],
     "infrastructure": {
       "hospitals": 4,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 2,
-      "total": 6
+      "total": 11
     }
   },
   {
@@ -58020,9 +58020,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -58134,9 +58134,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -58191,9 +58191,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 2,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -58248,9 +58248,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 4
+      "total": 7
     }
   },
   {
@@ -58305,9 +58305,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 2,
       "railway_stations": 3,
-      "total": 4
+      "total": 6
     }
   },
   {
@@ -58362,9 +58362,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -58476,9 +58476,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -58590,9 +58590,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 2
+      "total": 5
     }
   },
   {
@@ -58647,9 +58647,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 3,
       "railway_stations": 1,
-      "total": 1
+      "total": 4
     }
   },
   {
@@ -58704,9 +58704,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -58761,9 +58761,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 1,
-      "total": 4
+      "total": 9
     }
   },
   {
@@ -58932,9 +58932,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 1,
-      "total": 1
+      "total": 2
     }
   },
   {
@@ -59103,9 +59103,9 @@
     ],
     "infrastructure": {
       "hospitals": 3,
-      "schools": 0,
+      "schools": 18,
       "railway_stations": 3,
-      "total": 6
+      "total": 24
     }
   },
   {
@@ -59160,9 +59160,9 @@
     ],
     "infrastructure": {
       "hospitals": 2,
-      "schools": 0,
+      "schools": 6,
       "railway_stations": 1,
-      "total": 3
+      "total": 9
     }
   },
   {
@@ -59274,9 +59274,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 0,
-      "total": 0
+      "total": 1
     }
   },
   {
@@ -59331,9 +59331,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 3
+      "total": 4
     }
   },
   {
@@ -59445,9 +59445,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 4,
       "railway_stations": 0,
-      "total": 1
+      "total": 5
     }
   },
   {
@@ -59502,9 +59502,9 @@
     ],
     "infrastructure": {
       "hospitals": 14,
-      "schools": 0,
+      "schools": 56,
       "railway_stations": 7,
-      "total": 21
+      "total": 77
     }
   },
   {
@@ -59616,9 +59616,9 @@
     ],
     "infrastructure": {
       "hospitals": 1,
-      "schools": 0,
+      "schools": 5,
       "railway_stations": 2,
-      "total": 3
+      "total": 8
     }
   },
   {
@@ -59673,9 +59673,9 @@
     ],
     "infrastructure": {
       "hospitals": 0,
-      "schools": 0,
+      "schools": 1,
       "railway_stations": 2,
-      "total": 2
+      "total": 3
     }
   },
   {
@@ -59730,9 +59730,9 @@
     ],
     "infrastructure": {
       "hospitals": 13,
-      "schools": 0,
+      "schools": 22,
       "railway_stations": 2,
-      "total": 15
+      "total": 37
     }
   }
 ]
