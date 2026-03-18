@@ -1,0 +1,266 @@
+---
+title: "UrbanAnalytics"
+output: pdf_document
+date: "2026-02-05"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# KNOWLEDGE FILE — Urban Analytics (Website Demo)
+
+## DESCRIPTION  
+Urban Analytics is a web-based product that ranks neighborhoods using a transparent **Shift Score** to identify early signals of urban change and real-estate opportunity before they are reflected in headline prices.
+
+The product is designed to reduce uncertainty in early-stage location decisions by translating complex spatial, environmental, and urban signals into a clear, explainable ranking.
+
+---
+
+## IDEA  
+Build a website for real-estate investors and developers that makes neighborhood-level opportunity understandable in under one minute:  
+**where to look, what is changing, and why it matters**.
+
+Urban Analytics does not predict prices. It highlights **structural signals** that often precede changes in demand, risk, or long-term value.
+
+---
+
+## SUCCESSFUL OUTCOME  
+A first-time user can:
+1. Open the website  
+2. Select a city in Italy  
+3. Click on a neighborhood  
+
+…and leave with a clear, defensible takeaway:
+
+> “This area looks structurally interesting and worth deeper investigation.”
+
+That conclusion must be supported by **plain-language explanations**, visible data sources, and stated limitations — not a black-box score.
+
+---
+
+## USERS  
+
+### Primary users  
+Real-estate investors and developers evaluating where demand, risk, or transformation may emerge next.
+
+They are:
+- non-technical
+- time-constrained
+- financially motivated
+
+They want:
+- fast ranking
+- clear “why”
+- a method page they can share internally or with partners
+
+### Secondary users  
+Analysts, advisors, or internal team members who will:
+- inspect assumptions
+- review data sources
+- challenge methodology
+
+The product must withstand *reasonable scrutiny*, even if it is only a demo.
+
+---
+
+## BUILDING A DEMO (v1)
+
+The deliverable is a **website**, not a platform.
+
+### Required pages
+- Landing page (what it is, why it exists, who it is for)
+- Demo page (interactive experience)
+- Method & limitations page (credibility anchor)
+
+### Demo experience requirements
+The demo must include:
+- A city map with neighborhood polygons colored by **Shift Score**
+- A ranked list view of neighborhoods
+- A neighborhood detail panel showing:
+  - the Shift Score
+  - the top contributing drivers
+  - a short “Why this area?” narrative written in plain language
+
+The demo must feel like a real product:
+- clean UI
+- fast interactions
+- visible credibility signals (sources, assumptions, limits)
+
+---
+
+## NON-SUCCESS (v1)
+
+Urban Analytics v1 explicitly does **not** aim to be:
+
+- an automated valuation model  
+- a price prediction tool  
+- a real-time monitoring system  
+- a causal model (“X caused prices to rise”)  
+
+The demo does **not** require:
+- paid satellite imagery
+- paid mobility feeds
+- user authentication
+- persistent user accounts
+
+Any heavy infrastructure (auth, background jobs, real-time ingestion, databases beyond static/API data) is out of scope unless explicitly approved.
+
+---
+
+## STYLE OF PRODUCT
+
+The website should feel modern, minimal, confident, calm with mute color panel.
+
+Design principle:
+1. Show the **answer first** (map + rank)
+2. Then show the **explanation** (drivers)
+3. Then show the **method** (credibility)
+
+Copy guidelines:
+- simple
+- assertive
+- neutral
+- no hype
+- no “AI magic” language
+
+---
+
+## CONSTRAINTS
+
+- This is a **website**, not a local application  
+- Default stack: modern web (React / Next.js)  
+- Use a map component suitable for polygon rendering  
+- Demo data may be static or served via a lightweight API  
+- Do not introduce new libraries unless clearly justified for MVP delivery  
+- Do not introduce paid dependencies or services unless explicitly approved  
+
+---
+
+## DATA AND SECURITY  
+
+### Data philosophy  
+Urban Analytics v1 is built **entirely on open, public, or synthetic data**.  
+The goal is to demonstrate **method and insight**, not data exclusivity.
+
+
+## CORE DATA SOURCES (v1)
+
+The demo uses pre-processed, open European datasets:
+
+- **Copernicus Land Monitoring Service — High Resolution Layers**
+  - Imperviousness Density (2018)
+  - Tree Cover Density (2018)
+
+  These layers are used as structural proxies for:
+  - construction intensity / soil sealing
+  - environmental quality and green presence
+
+- **ISTAT — Administrative boundaries (2025)**
+  Used to define the spatial units for aggregation and ranking.
+
+All raster data is processed offline and aggregated to administrative units before being served to the web application.
+No raw satellite data is processed in the browser.
+
+---
+
+### Copernicus-specific considerations  
+
+Copernicus data is publicly funded, free to access, non-exclusive, regulator-trusted within the EU
+
+However, raw Copernicus data is not served directly to the client.
+
+For the demo:
+- Copernicus-derived indicators are **pre-processed offline**
+- Only **aggregated, neighborhood-level outputs** are exposed to the user.
+- No raw satellite imagery or pixel-level data is displayed or downloadable
+
+This ensures performance, clarity for non-technical users, reduced risk of misuse or misinterpretation.
+
+---
+
+### Security & privacy guarantees  
+
+- No personal data is collected  
+- No user accounts or authentication  
+- No tracking beyond basic, anonymized analytics (if any)  
+- No raw Copernicus files exposed to the browser  
+- No API keys embedded in client-side code  
+
+If a map provider requires an access token:
+- it is stored as an environment variable
+- treated as a secret
+- never committed to version control
+
+---
+
+### Transparency & limitations  
+
+The method page must clearly state:
+- data sources used
+- update frequency (or lack thereof)
+- known limitations of satellite-derived indicators
+- that Shift Score is a **signal index**, not a forecast
+
+This transparency is a core **credibility feature**, not an afterthought.
+
+---
+
+## DEFINITION OF “DONE” — v1
+
+Urban Analytics v1 is complete when:
+
+- The website has:
+  - a landing page
+  - a demo page
+  - a method & limitations page
+- The demo page shows:
+  - a city map with neighborhood polygons
+  - a ranked list view
+  - a neighborhood detail panel
+- Clicking a neighborhood reveals:
+  - its Shift Score
+  - top contributing drivers
+  - a short, human-readable explanation
+- The method page clearly lists:
+  - data sources
+  - assumptions
+  - limitations
+
+---
+
+## OPEN DECISIONS (TO RESOLVE NEXT)
+
+- Which city to use for the demo (Rome vs another Italian city)
+- Neighborhood boundary source:
+  - official administrative polygons
+  - or an open boundary dataset
+- Shift Score approach for v1:
+  - weighted, interpretable index
+  - vs very simple additive model
+- Which driver categories appear in the UI:
+  - amenities
+  - construction intensity
+  - accessibility
+  - environmental stress
+  - mixed-use signals
+- What serves as the **credibility anchor**:
+  - price proxy
+  - listing trend proxy
+  - or a pure signal index with no outcome claim
+
+---
+
+## CHANGE RULE  
+
+When scope, styling, or features drift:
+- We do not argue taste
+- We refer back to this Knowledge File
+
+This document defines:
+- MVP scope
+- non-goals
+- constraints
+- definition of done
+
+All decisions must align with it.

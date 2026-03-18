@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw raster data (too large for git)
+data/raw/copernicus_imperviousness_2021/
+data/raw/copernicus_treecoverage_2021/
+data/raw/istat_admin_boundaries_2025/
+data/raw/pop_2023/
+data/raw/pop_2025/
+
+# Node
+urban-shift/node_modules/
+urban-shift/dist/
+
+# macOS
+.DS_Store
