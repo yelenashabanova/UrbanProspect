@@ -1,0 +1,277 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pigneto",
+                "name": "Pigneto"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.530,
+                            41.885
+                        ],
+                        [
+                            12.545,
+                            41.885
+                        ],
+                        [
+                            12.545,
+                            41.876
+                        ],
+                        [
+                            12.530,
+                            41.876
+                        ],
+                        [
+                            12.530,
+                            41.885
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ostiense",
+                "name": "Ostiense"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.466,
+                            41.866
+                        ],
+                        [
+                            12.484,
+                            41.866
+                        ],
+                        [
+                            12.484,
+                            41.857
+                        ],
+                        [
+                            12.466,
+                            41.857
+                        ],
+                        [
+                            12.466,
+                            41.866
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "garbatella",
+                "name": "Garbatella"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.480,
+                            41.857
+                        ],
+                        [
+                            12.500,
+                            41.857
+                        ],
+                        [
+                            12.500,
+                            41.848
+                        ],
+                        [
+                            12.480,
+                            41.848
+                        ],
+                        [
+                            12.480,
+                            41.857
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "testaccio",
+                "name": "Testaccio"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.472,
+                            41.875
+                        ],
+                        [
+                            12.485,
+                            41.875
+                        ],
+                        [
+                            12.485,
+                            41.868
+                        ],
+                        [
+                            12.472,
+                            41.868
+                        ],
+                        [
+                            12.472,
+                            41.875
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "trastevere",
+                "name": "Trastevere"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.460,
+                            41.884
+                        ],
+                        [
+                            12.474,
+                            41.884
+                        ],
+                        [
+                            12.474,
+                            41.876
+                        ],
+                        [
+                            12.460,
+                            41.876
+                        ],
+                        [
+                            12.460,
+                            41.884
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "prenestino",
+                "name": "Prenestino"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.546,
+                            41.880
+                        ],
+                        [
+                            12.562,
+                            41.880
+                        ],
+                        [
+                            12.562,
+                            41.870
+                        ],
+                        [
+                            12.546,
+                            41.870
+                        ],
+                        [
+                            12.546,
+                            41.880
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "nomentano",
+                "name": "Nomentano"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.510,
+                            41.906
+                        ],
+                        [
+                            12.530,
+                            41.906
+                        ],
+                        [
+                            12.530,
+                            41.895
+                        ],
+                        [
+                            12.510,
+                            41.895
+                        ],
+                        [
+                            12.510,
+                            41.906
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "casilino",
+                "name": "Casilino"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            12.560,
+                            41.870
+                        ],
+                        [
+                            12.580,
+                            41.870
+                        ],
+                        [
+                            12.580,
+                            41.858
+                        ],
+                        [
+                            12.560,
+                            41.858
+                        ],
+                        [
+                            12.560,
+                            41.870
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
