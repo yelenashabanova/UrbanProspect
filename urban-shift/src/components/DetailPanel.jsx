@@ -113,6 +113,53 @@ export default function DetailPanel({ neighborhood, onClose, onAbout, onCompare 
                             )}
                         </div>
 
+                        {/* Residential Price — OMI */}
+                        {neighborhood.price && (
+                            <div className="detail-section">
+                                <div className="detail-section__label">Residential Price — OMI</div>
+                                <div style={{ marginBottom: '6px' }}>
+                                    {neighborhood.price.zones >= 5 ? (
+                                        <>
+                                            <span style={{ fontSize: '20px', fontWeight: 700, color: 'var(--color-text-primary)' }}>
+                                                €{neighborhood.price.min.toLocaleString()} – €{neighborhood.price.max.toLocaleString()}/m²
+                                            </span>
+                                            <div style={{ fontSize: '12px', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
+                                                avg €{neighborhood.price.mid.toLocaleString()}/m² across {neighborhood.price.zones} zones
+                                            </div>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <span style={{ fontSize: '20px', fontWeight: 700, color: 'var(--color-text-primary)' }}>
+                                                €{neighborhood.price.mid.toLocaleString()}/m²
+                                            </span>
+                                            {neighborhood.price.min !== neighborhood.price.max && (
+                                                <div style={{ fontSize: '12px', color: 'var(--color-text-secondary)', marginTop: '2px' }}>
+                                                    range €{neighborhood.price.min.toLocaleString()} – €{neighborhood.price.max.toLocaleString()}
+                                                </div>
+                                            )}
+                                        </>
+                                    )}
+                                </div>
+                                {neighborhood.price.signal && (() => {
+                                    const cfg = {
+                                        low:  { label: 'Below regional median', color: '#2d6a4f', bg: '#d8f3dc' },
+                                        mid:  { label: 'Around regional median', color: '#555',    bg: '#f0f0f0' },
+                                        high: { label: 'Above regional median',  color: '#7B5800', bg: '#FFF3CD' },
+                                    }[neighborhood.price.signal];
+                                    return cfg ? (
+                                        <span style={{
+                                            display: 'inline-block', fontSize: '11px', fontWeight: 600,
+                                            color: cfg.color, background: cfg.bg,
+                                            borderRadius: '4px', padding: '2px 8px', marginBottom: '6px',
+                                        }}>{cfg.label}</span>
+                                    ) : null;
+                                })()}
+                                <div style={{ fontSize: '10px', color: 'var(--color-text-tertiary)', lineHeight: 1.4 }}>
+                                    OMI {neighborhood.price.semester?.replace('_', ' S')} · Abitazioni civili, stato normale · Dati OMI — Agenzia delle Entrate
+                                </div>
+                            </div>
+                        )}
+
                         {/* Score breakdown — collapsible */}
                         <Collapsible label="Score breakdown">
                             <p className="detail-section__explanation" style={{ fontSize: '12px' }}>
@@ -134,6 +181,7 @@ export default function DetailPanel({ neighborhood, onClose, onAbout, onCompare 
                                 Population — ISTAT Demo, popolazione residente per comune 2023 &amp; 2025.<br />
                                 Accessibility — OSRM public routing API, drive time to Piazza Venezia, Rome.<br />
                                 Infrastructure — OpenStreetMap via Overpass API (hospitals, schools, railway stations).<br />
+                                Residential price — OMI, Agenzia delle Entrate (via ondata mirror), aggregated per comune.<br />
                                 Boundaries — ISTAT comuni 2025, WGS84.<br />
                                 Prospect Score is a structural signal index, not a price forecast.
                             </p>
