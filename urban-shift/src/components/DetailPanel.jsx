@@ -1,7 +1,29 @@
-export default function DetailPanel({ neighborhood, onClose, onAbout }) {
+import { useState } from 'react'
+
+function Collapsible({ label, children, defaultOpen = false }) {
+    const [open, setOpen] = useState(defaultOpen)
+    return (
+        <div className="detail-section">
+            <button
+                onClick={() => setOpen(p => !p)}
+                style={{
+                    display: 'flex', justifyContent: 'space-between',
+                    alignItems: 'center', width: '100%',
+                    background: 'none', border: 'none', padding: 0,
+                    cursor: 'pointer', marginBottom: open ? '10px' : 0,
+                }}
+            >
+                <span className="detail-section__label" style={{ marginBottom: 0 }}>{label}</span>
+                <span style={{ fontSize: '9px', color: 'var(--color-text-tertiary)' }}>{open ? '▲' : '▼'}</span>
+            </button>
+            {open && children}
+        </div>
+    )
+}
+
+export default function DetailPanel({ neighborhood, onClose, onAbout, onCompare }) {
     const isOpen = !!neighborhood
 
-    // Colour the score number based on its position in the data range
     function scoreColor(score, min, max) {
         const t = max > min ? (score - min) / (max - min) : 0.5
         if (t < 0.33) return 'rgb(190,80,40)'
@@ -11,12 +33,11 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
 
     return (
         <div className={`detail-panel${isOpen ? ' open' : ''}`} aria-label="Comune detail">
-            <button className="detail-panel__close" onClick={onClose} aria-label="Close panel">
-                ×
-            </button>
+            <button className="detail-panel__close" onClick={onClose} aria-label="Close panel">×</button>
 
             {neighborhood && (
                 <>
+                    {/* Hero — always visible */}
                     <div className="detail-panel__hero">
                         <div className="detail-panel__tag">Comune · {neighborhood.region}</div>
                         <div className="detail-panel__name">{neighborhood.name}</div>
@@ -33,11 +54,14 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                     </div>
 
                     <div className="detail-panel__body">
+
+                        {/* Why this area — always visible */}
                         <div className="detail-section">
                             <div className="detail-section__label">Why this area?</div>
                             <p className="detail-section__explanation">{neighborhood.explanation}</p>
                         </div>
 
+                        {/* Indicator Breakdown — always visible */}
                         <div className="detail-section">
                             <div className="detail-section__label">Indicator Breakdown</div>
                             <div className="indicator-list">
@@ -55,7 +79,7 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                                         <div className="indicator-item__track">
                                             <div
                                                 className="indicator-item__fill"
-                                                style={{ width: `${Math.min(100, ind.value)}%` }}
+                                                style={{ width: `${Math.min(100, Math.abs(ind.value ?? 0))}%` }}
                                             />
                                         </div>
                                     </div>
@@ -63,6 +87,7 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                             </div>
                         </div>
 
+                        {/* Infrastructure — always visible */}
                         <div className="detail-section">
                             <div className="detail-section__label">Infrastructure</div>
                             {neighborhood.infrastructure ? (
@@ -70,14 +95,12 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                                     {[
                                         { label: 'Hospitals', value: neighborhood.infrastructure.hospitals, icon: '🏥' },
                                         { label: 'Schools', value: neighborhood.infrastructure.schools, icon: '🏫' },
-                                        { label: 'Railway stations', value: neighborhood.infrastructure.railway_stations, icon: '🚂' },
+                                        { label: 'Railway', value: neighborhood.infrastructure.railway_stations, icon: '🚂' },
                                     ].map(({ label, value, icon }) => (
                                         <div key={label} style={{
                                             background: 'var(--color-surface-muted)',
                                             border: '1px solid var(--color-border)',
-                                            borderRadius: '6px',
-                                            padding: '10px 8px',
-                                            textAlign: 'center',
+                                            borderRadius: '6px', padding: '10px 8px', textAlign: 'center',
                                         }}>
                                             <div style={{ fontSize: '18px', marginBottom: '4px' }}>{icon}</div>
                                             <div style={{ fontSize: '16px', fontWeight: 700, color: 'var(--color-text-primary)' }}>{value}</div>
@@ -86,14 +109,12 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                                     ))}
                                 </div>
                             ) : (
-                                <p className="detail-section__explanation" style={{ color: 'var(--color-text-tertiary)' }}>No infrastructure data available.</p>
+                                <p className="detail-section__explanation" style={{ color: 'var(--color-text-tertiary)' }}>No data.</p>
                             )}
-                            <p style={{ fontSize: '10px', color: 'var(--color-text-tertiary)', marginTop: '8px' }}>
-                                OSM amenity counts within municipality bounds · hospitals & clinics, schools & universities, railway stations (OSM railway=station)
-                            </p>
                         </div>
 
-                        <div className="detail-section">
+                        {/* Score breakdown — collapsible */}
+                        <Collapsible label="Score breakdown">
                             <p className="detail-section__explanation" style={{ fontSize: '12px' }}>
                                 <strong>Prospect Score</strong><br />
                                 35% × (100 − IMD score)<br />
@@ -102,13 +123,11 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                                 + 10% × Accessibility score<br /><br />
                                 Each component is independently min-max normalised to [0–100]
                                 across all municipalities in the study area.
-                                High score = low sealing, high green cover, growing population,
-                                and good Rome connectivity.
                             </p>
-                        </div>
+                        </Collapsible>
 
-                        <div className="detail-section">
-                            <div className="detail-section__label">Data Sources</div>
+                        {/* Data Sources — collapsible */}
+                        <Collapsible label="Data Sources">
                             <p className="detail-section__explanation" style={{ fontSize: '11px' }}>
                                 IMD — Copernicus HRL Imperviousness Density 2021, 10 m, EPSG:3035.<br />
                                 TCD — Copernicus HRL Tree Cover Density 2021, 10 m, EPSG:3035 (modelled where tiles missing).<br />
@@ -118,27 +137,28 @@ export default function DetailPanel({ neighborhood, onClose, onAbout }) {
                                 Boundaries — ISTAT comuni 2025, WGS84.<br />
                                 Prospect Score is a structural signal index, not a price forecast.
                             </p>
-                        </div>
+                        </Collapsible>
 
-                        <div style={{ marginTop: '20px', paddingTop: '16px', borderTop: '1px solid var(--color-border, #e5e5e0)' }}>
+                        {/* Action buttons */}
+                        <div style={{ marginTop: '20px', paddingTop: '16px', borderTop: '1px solid var(--color-border, #e5e5e0)', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                            <button
+                                onClick={() => onCompare && onCompare(neighborhood)}
+                                style={{
+                                    width: '100%', padding: '10px', background: 'none',
+                                    border: '1.5px solid #7ab4e8', borderRadius: '6px',
+                                    color: '#7ab4e8', fontWeight: 600, fontSize: '12px',
+                                    letterSpacing: '0.08em', textTransform: 'uppercase', cursor: 'pointer',
+                                }}
+                            >⇄ Add to Compare</button>
                             <button
                                 onClick={onAbout}
                                 style={{
-                                    width: '100%',
-                                    padding: '10px',
-                                    background: 'none',
-                                    border: '1.5px solid var(--color-accent, #2d6a4f)',
-                                    borderRadius: '6px',
-                                    color: 'var(--color-accent, #2d6a4f)',
-                                    fontWeight: 600,
-                                    fontSize: '12px',
-                                    letterSpacing: '0.08em',
-                                    textTransform: 'uppercase',
-                                    cursor: 'pointer',
+                                    width: '100%', padding: '10px', background: 'none',
+                                    border: '1.5px solid var(--color-accent, #2d6a4f)', borderRadius: '6px',
+                                    color: 'var(--color-accent, #2d6a4f)', fontWeight: 600, fontSize: '12px',
+                                    letterSpacing: '0.08em', textTransform: 'uppercase', cursor: 'pointer',
                                 }}
-                            >
-                                About Urban Prospect →
-                            </button>
+                            >About Urban Prospect →</button>
                         </div>
                     </div>
                 </>

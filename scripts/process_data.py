@@ -587,7 +587,7 @@ for _, row in out_gdf.iterrows():
                 "value": round(pop_v, 1), "score": round(pop_s, 1),
                 "pct": None, "unit": "%",
                 "weight": POP_WEIGHT,
-                "note": "ISTAT Censimento 2021",
+                "note": "ISTAT Demo 2023–2025",
             },
             {
                 "key": "accessibilityRome", "label": "Drive Time to Rome",

@@ -25,26 +25,28 @@ It translates satellite imagery, census data, routing APIs, and OpenStreetMap in
 | **Imperviousness Density (IMD)** | Copernicus HRL | 2021 · 10 m | 35% | Inverted — low sealing = opportunity |
 | **Tree Cover Density (TCD)** | Copernicus HRL | 2021 · 10 m | 25% | Direct — high green = desirability |
 | **Population Growth** | ISTAT Demo | 2023–2025 | 30% | Direct — growth = demand signal |
-| **Drive Time to Rome** | OSRM routing API | Live | 10% | Inverted — closer = better connectivity |
+| **Drive Time to Rome** | OSRM routing API | computed | 10% | Inverted — closer = better connectivity |
 
 All four indicators are independently **min-max normalised to [0–100]** before combining, so no single signal dominates due to its unit or magnitude.
 
 ### Formula
 
-```python
+```
 Prospect Score = 0.35 × (100 − imd_norm)
               + 0.25 × tcd_norm
               + 0.30 × pop_norm
               + 0.10 × access_norm
 ```
 
+Weights are user-adjustable in the interface — see [Customise Weights](#features) below.
+
 ### Supplementary data (not in score)
 
 | Data | Source | Use |
 |------|--------|-----|
-| Hospitals & clinics | OpenStreetMap / Overpass API | Infrastructure filter |
-| Schools & universities | OpenStreetMap / Overpass API | Infrastructure filter |
-| Railway stations | OpenStreetMap / Overpass API | Infrastructure filter |
+| Hospitals & clinics | OpenStreetMap via Overpass API | Infrastructure filter & detail panel |
+| Schools & universities | OpenStreetMap via Overpass API | Infrastructure filter & detail panel |
+| Railway stations (`railway=station`) | OpenStreetMap via Overpass API | Infrastructure filter & detail panel |
 
 ---
 
@@ -52,23 +54,54 @@ Prospect Score = 0.35 × (100 − imd_norm)
 
 **4 regions · 1,048 municipalities**
 
-| Region | N comuni | Avg IMD | Avg Score |
-|--------|----------|---------|-----------|
-| Lazio | 378 | 3.0% | 62.0 |
-| Toscana | 273 | 3.6% | 60.4 |
-| Umbria | 92 | 1.8% | 63.0 |
-| Abruzzo | 305 | 2.5% | 60.5 |
+| Region | Comuni | Avg IMD | Avg Score |
+|--------|--------|---------|-----------|
+| Lazio | 378 | 3.5% | 65.4 |
+| Toscana | 273 | 3.9% | 66.7 |
+| Umbria | 92 | 2.3% | 65.9 |
+| Abruzzo | 305 | 3.1% | 63.3 |
 
 ---
 
 ## Features
 
-- **Landing page** — product overview, methodology, contact form (saves to Google Sheets)
-- **Interactive map** — 1,048 comuni coloured by Prospect Score (purple=low, green=high)
-- **Ranked sidebar** — full leaderboard with sort (highest/lowest) and filters
-- **Filters** — by region, minimum score, and infrastructure thresholds (hospitals, schools, railway stations)
-- **Detail panel** — score, indicator breakdown with bars, infrastructure counts, explanation text, data sources
-- **Tooltip on hover** — comune name, Prospect Score, all 4 indicator values
+### Landing page
+- Product overview, methodology, and who it's for
+- Contact / demo request form — submissions go directly to a private Google Sheet via Apps Script (no backend required)
+
+### Interactive map
+- 1,048 comuni coloured by Prospect Score (purple → orange → yellow → green)
+- Colour scale normalised to actual data range so the full gradient is always used
+- Hover tooltip showing Prospect Score + all 4 indicator values
+- Click any comune to open its detail panel
+
+### Ranked sidebar (collapsible)
+- Full leaderboard sortable highest → lowest or lowest → highest
+- **Region filter** — toggle any combination of Lazio, Toscana, Umbria, Abruzzo
+- **Min score slider** — hide everything below a threshold
+- **Infrastructure filter** — stepper controls for minimum hospitals, schools, and railway stations
+- Collapse button (›) reduces sidebar to a 48px strip; hamburger (☰) reopens it
+
+### Customise Weights panel
+- Floating button top-left of the map, opens downward
+- Four sliders — one per indicator — with auto-normalisation: move any slider and the others adjust proportionally to keep the total at exactly 100%
+- Map recolours and ranking reorders in real time with no page reload
+- Live sparkline showing how the top comune's score changes as you adjust
+- "Our Default Weights — Why" section explaining the reasoning behind each default
+- Reset button restores defaults (35 / 25 / 30 / 10)
+
+### Compare mode
+- ⇄ button appears on hover for every rank item, and in the detail panel
+- Select any 2 comuni to open a side-by-side overlay: scores, indicator bars, infrastructure counts
+- Both compared comuni highlighted on the map
+- Click ✓ ⇄ again to deselect; closing the panel resets all selections
+
+### Detail panel
+- Score, region, and narrative explanation
+- Indicator breakdown with bars and data source labels
+- Infrastructure card grid (hospitals / schools / railway stations)
+- Collapsible Score breakdown and Data Sources sections
+- "Add to Compare" and "About Urban Prospect" action buttons
 
 ---
 
@@ -77,13 +110,14 @@ Prospect Score = 0.35 × (100 − imd_norm)
 | Layer | Technology |
 |-------|-----------|
 | Framework | React 19 + Vite |
-| Map | Leaflet |
+| Map | Leaflet + react-leaflet |
 | Geo processing | Python · GeoPandas · Rasterio · Rasterstats · SciPy |
-| Routing | OSRM public API |
-| Infrastructure | OpenStreetMap via Overpass API |
-| Population | ISTAT Demo (province-level CSVs) |
+| Routing | OSRM public routing API |
+| Infrastructure | OpenStreetMap via Overpass API (bulk spatial join) |
+| Population | ISTAT Demo province-level CSVs (2023 & 2025) |
 | Raster data | Copernicus HRL IMD + TCD 2021 (10 m, EPSG:3035) |
-| Deployment | GitHub Pages via GitHub Actions |
+| Contact form | Google Apps Script webhook → Google Sheets |
+| Deployment | GitHub Pages via GitHub Actions (auto-deploy on push) |
 
 ---
 
@@ -92,7 +126,7 @@ Prospect Score = 0.35 × (100 − imd_norm)
 ```bash
 cd urban-shift
 npm install
-npm run dev          # local dev server at http://localhost:5173/UrbanProspect/
+npm run dev    # → http://localhost:5173/UrbanProspect/
 ```
 
 Re-run the data pipeline (Python venv required):
@@ -102,9 +136,9 @@ Re-run the data pipeline (Python venv required):
 python scripts/process_data.py
 ```
 
-Requires: `geopandas rasterio rasterstats scipy requests`
+Required packages: `geopandas rasterio rasterstats scipy requests pandas`
 
-Drive times and OSM infrastructure are cached after first run — subsequent runs are fast.
+**Caches** — drive times (`drive_times.csv`) and OSM infrastructure (`osm_infrastructure.csv`) are saved to `data/processed/` after first run. Delete them to force a refresh.
 
 ---
 
@@ -113,31 +147,50 @@ Drive times and OSM infrastructure are cached after first run — subsequent run
 ```
 UrbanAnalytics/
 ├── scripts/
-│   └── process_data.py          # ETL pipeline
+│   └── process_data.py              # Full ETL pipeline
 ├── data/
 │   ├── raw/
 │   │   ├── copernicus_imperviousness_2021/
 │   │   ├── copernicus_treecoverage_2021/
 │   │   ├── istat_admin_boundaries_2025/
-│   │   ├── pop_2023/
+│   │   ├── pop_2023/                # ISTAT Demo province CSVs
 │   │   └── pop_2025/
-│   └── processed/               # generated outputs
+│   └── processed/                   # Generated — do not edit manually
 │       ├── lazio_neighborhoods.json
 │       ├── municipalities.geojson
-│       ├── drive_times.csv      # cached
-│       └── osm_infrastructure.csv # cached
-└── urban-shift/                 # React app
-    ├── src/
-    │   ├── components/
-    │   │   ├── LandingPage.jsx
-    │   │   ├── MapView.jsx
-    │   │   ├── DetailPanel.jsx
-    │   │   └── RankList.jsx
-    │   └── data/
-    │       └── lazio_neighborhoods.json
-    └── public/
-        └── municipalities.geojson
+│       ├── drive_times.csv          # OSRM cache
+│       └── osm_infrastructure.csv   # Overpass cache
+└── urban-shift/                     # React application
+    ├── .github/workflows/
+    │   └── deploy.yml               # GitHub Actions deploy
+    ├── public/
+    │   └── municipalities.geojson   # Served at runtime
+    └── src/
+        ├── components/
+        │   ├── LandingPage.jsx
+        │   ├── MapView.jsx
+        │   ├── RankList.jsx
+        │   ├── DetailPanel.jsx
+        │   ├── WeightsPanel.jsx
+        │   └── ComparePanel.jsx
+        ├── utils/
+        │   └── score.js             # Client-side score recalculation
+        └── data/
+            └── lazio_neighborhoods.json
 ```
+
+---
+
+## Data pipeline — how it works
+
+1. **Load boundaries** — ISTAT comuni 2025 shapefile, filtered to 4 regions
+2. **IMD zonal stats** — Copernicus HRL 2021 tiles → mean imperviousness per comune
+3. **TCD zonal stats** — Copernicus HRL 2021 tiles → mean tree cover per comune
+4. **Population growth** — ISTAT Demo province CSVs for 2023 and 2025 → % change per comune
+5. **Drive times** — OSRM public API, centroid → Piazza Venezia for all 1,048 comuni (cached)
+6. **OSM infrastructure** — 3 bulk Overpass queries (hospitals, schools, railway stations) → spatial join per comune (cached)
+7. **Score computation** — min-max normalise each indicator → weighted composite
+8. **Export** — `municipalities.geojson` + `lazio_neighborhoods.json` → auto-synced to React app
 
 ---
 
@@ -145,8 +198,8 @@ UrbanAnalytics/
 
 - No personal data collected · no user accounts · no API keys in client code
 - All source data is open and public (Copernicus Land Monitoring, ISTAT, OpenStreetMap, OSRM)
-- Raw raster files are not committed to the repository
-- Contact form submissions are stored in a private Google Sheet via Apps Script
+- Raw raster files (~2 GB) are excluded from the repository via `.gitignore`
+- Contact form submissions stored in a private Google Sheet via Apps Script
 
 ---
 
